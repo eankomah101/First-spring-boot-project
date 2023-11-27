@@ -1,31 +1,41 @@
 package com.eankomah.tutwithali.service;
 
 import com.eankomah.tutwithali.entity.Student;
+import com.eankomah.tutwithali.repository.Repo;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @Service
-public class StudentService {
+@RequiredArgsConstructor
+public class StudentService implements StudentServiceInterface {
+
+    private final Repo studentRepo;
+    @Override
+    public Student save(Student s) {
+        return this.studentRepo.save(s);
+    }
+
+    @Override
     public List<Student> findAllStudents() {
-        return List.of(
-                new Student("Evans",
-                        "Ankomah",
-                        LocalDate.now(),
-                        "contact1@gmail.com",
-                        25),
-                new Student("Godswill",
-                        "Vittor",
-                        LocalDate.now(),
-                        "contact2@gmail.com",
-                        25),
-                new Student("Olivia",
-                        "Dosimey",
-                        LocalDate.now(),
-                        "contact3@gmail.com",
-                        25)
-        );
+        return studentRepo.findAllStudents();
+    }
+
+    @Override
+    public Student findByEmail(String email) {
+        return studentRepo.findByEmail(email);
+    }
+
+    @Override
+    public Student update(Student s) {
+        return studentRepo.update(s);
+    }
+
+    @Override
+    public void deleteByEmail(String email) {
+        studentRepo.deleteByEmail(email);
+
     }
 
 }
