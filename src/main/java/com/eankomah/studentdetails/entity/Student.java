@@ -1,4 +1,4 @@
-package com.eankomah.tutwithali.entity;
+package com.eankomah.studentdetails.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

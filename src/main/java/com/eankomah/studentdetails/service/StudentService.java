@@ -1,7 +1,7 @@
-package com.eankomah.tutwithali.service;
+package com.eankomah.studentdetails.service;
 
-import com.eankomah.tutwithali.entity.Student;
-import com.eankomah.tutwithali.repository.Repo;
+import com.eankomah.studentdetails.entity.Student;
+import com.eankomah.studentdetails.repository.Repo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

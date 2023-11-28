@@ -1,6 +1,6 @@
-package com.eankomah.tutwithali.service;
+package com.eankomah.studentdetails.service;
 
-import com.eankomah.tutwithali.entity.Student;
+import com.eankomah.studentdetails.entity.Student;
 
 import java.util.List;
 

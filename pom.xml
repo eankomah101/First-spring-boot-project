@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.eankomah</groupId>
-	<artifactId>tut-with-ali</artifactId>
+	<artifactId>student-details</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>tut-with-ali</name>
 	<description>Demo project for Spring Boot</description>

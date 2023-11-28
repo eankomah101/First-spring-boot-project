@@ -1,4 +1,4 @@
-package com.eankomah.tutwithali;
+package com.eankomah.studentdetails;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

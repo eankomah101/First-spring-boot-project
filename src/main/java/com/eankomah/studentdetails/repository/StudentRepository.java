@@ -1,6 +1,6 @@
-package com.eankomah.tutwithali.repository;
+package com.eankomah.studentdetails.repository;
 
-import com.eankomah.tutwithali.entity.Student;
+import com.eankomah.studentdetails.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentRepository extends JpaRepository<Student, Integer> {

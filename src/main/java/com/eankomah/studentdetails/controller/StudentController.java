@@ -1,7 +1,7 @@
-package com.eankomah.tutwithali.controller;
+package com.eankomah.studentdetails.controller;
 
-import com.eankomah.tutwithali.entity.Student;
-import com.eankomah.tutwithali.service.StudentServiceInterface;
+import com.eankomah.studentdetails.entity.Student;
+import com.eankomah.studentdetails.service.StudentServiceInterface;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
